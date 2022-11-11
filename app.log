@@ -1,0 +1,934 @@
+2022-11-06 20:51:44 INFO ProductRepository: Method create was called
+2022-11-06 20:51:45 ERROR Exception during DB connection: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.6.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282) ~[mysql-connector-java-5.1.6.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:683) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:23) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:24) ~[main/:?]
+2022-11-06 20:51:45 INFO ProductService: Product was created: 1
+2022-11-06 20:51:45 INFO ProductRepository: Method create was called
+2022-11-06 20:51:45 ERROR Exception during DB connection: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.6.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282) ~[mysql-connector-java-5.1.6.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:683) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:23) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:25) ~[main/:?]
+2022-11-06 20:51:45 INFO ProductService: Product was created: 2
+2022-11-06 20:51:45 INFO ProductService: Method delete was called
+2022-11-06 20:51:45 INFO ProductRepository: Method delete was called
+2022-11-06 20:51:45 ERROR Exception during DB connection: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.6.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282) ~[mysql-connector-java-5.1.6.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:683) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at by.tms.order.repositories.ProductRepository.delete(ProductRepository.java:75) ~[main/:?]
+	at by.tms.order.services.ProductService.delete(ProductService.java:37) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:27) ~[main/:?]
+2022-11-06 20:51:45 INFO ProductRepository: Method create was called
+2022-11-06 20:51:45 ERROR Exception during DB connection: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.6.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282) ~[mysql-connector-java-5.1.6.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:683) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:23) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:28) ~[main/:?]
+2022-11-06 20:51:45 INFO ProductService: Product was created: 3
+2022-11-06 20:51:45 INFO ProductService: Method updateProduct was called with product=Product{id=1, description='iphone 14', price=900.0}
+2022-11-06 20:51:45 INFO ProductRepository: update was called for productId=1
+2022-11-06 20:51:45 INFO ProductRepository: Method getById was called with productId=1
+2022-11-06 20:51:45 ERROR Exception during DB connection: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.6.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282) ~[mysql-connector-java-5.1.6.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:683) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at by.tms.order.repositories.ProductRepository.getById(ProductRepository.java:43) ~[main/:?]
+	at by.tms.order.repositories.ProductRepository.update(ProductRepository.java:64) ~[main/:?]
+	at by.tms.order.services.ProductService.updateProduct(ProductService.java:27) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:30) ~[main/:?]
+2022-11-06 20:54:01 INFO ProductRepository: Method create was called
+2022-11-06 20:54:02 ERROR Exception during DB connection: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.6.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282) ~[mysql-connector-java-5.1.6.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:683) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:23) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:24) ~[main/:?]
+2022-11-06 20:54:02 INFO ProductService: Product was created: 1
+2022-11-06 20:54:02 INFO ProductRepository: Method create was called
+2022-11-06 20:54:02 ERROR Exception during DB connection: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.6.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282) ~[mysql-connector-java-5.1.6.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:683) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:23) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:25) ~[main/:?]
+2022-11-06 20:54:02 INFO ProductService: Product was created: 2
+2022-11-06 20:54:02 INFO ProductService: Method delete was called
+2022-11-06 20:54:02 INFO ProductRepository: Method delete was called
+2022-11-06 20:54:02 ERROR Exception during DB connection: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.6.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282) ~[mysql-connector-java-5.1.6.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:683) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at by.tms.order.repositories.ProductRepository.delete(ProductRepository.java:75) ~[main/:?]
+	at by.tms.order.services.ProductService.delete(ProductService.java:37) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:27) ~[main/:?]
+2022-11-06 20:54:02 INFO ProductRepository: Method create was called
+2022-11-06 20:54:02 ERROR Exception during DB connection: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.6.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282) ~[mysql-connector-java-5.1.6.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:683) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:23) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:28) ~[main/:?]
+2022-11-06 20:54:02 INFO ProductService: Product was created: 3
+2022-11-06 20:54:02 INFO ProductService: Method updateProduct was called with product=Product{id=1, description='iphone 14', price=900.0}
+2022-11-06 20:54:02 INFO ProductRepository: update was called for productId=1
+2022-11-06 20:54:02 INFO ProductRepository: Method getById was called with productId=1
+2022-11-06 20:54:02 ERROR Exception during DB connection: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.6.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282) ~[mysql-connector-java-5.1.6.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:683) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at by.tms.order.repositories.ProductRepository.getById(ProductRepository.java:43) ~[main/:?]
+	at by.tms.order.repositories.ProductRepository.update(ProductRepository.java:64) ~[main/:?]
+	at by.tms.order.services.ProductService.updateProduct(ProductService.java:27) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:30) ~[main/:?]
+2022-11-07 17:55:06 INFO ProductRepository: Method create was called
+2022-11-07 17:55:07 ERROR Exception during DB connection: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.6.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302) ~[mysql-connector-java-5.1.6.jar:?]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282) ~[mysql-connector-java-5.1.6.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:683) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at by.tms.order.repositories.ConnectionManager.open(ConnectionManager.java:22) ~[main/:?]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:22) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:24) ~[main/:?]
+2022-11-07 17:56:45 INFO ProductRepository: Method create was called
+2022-11-07 17:56:48 INFO ProductService: Product was created: 1
+2022-11-07 17:56:48 INFO ProductRepository: Method create was called
+2022-11-07 17:56:48 INFO ProductService: Product was created: 2
+2022-11-07 17:56:48 INFO ProductService: Method delete was called
+2022-11-07 17:56:48 INFO ProductRepository: Method delete was called
+2022-11-07 17:56:48 ERROR Exception during DB connection: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM products where id =' at line 1
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM products where id =' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1334) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2089) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1339) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.ProductRepository.delete(ProductRepository.java:76) ~[main/:?]
+	at by.tms.order.services.ProductService.delete(ProductService.java:37) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:27) ~[main/:?]
+2022-11-07 17:56:49 INFO ProductRepository: Method create was called
+2022-11-07 17:56:49 INFO ProductService: Product was created: 3
+2022-11-07 17:56:49 INFO ProductService: Method updateProduct was called with product=Product{id=1, description='iphone 14', price=900.0}
+2022-11-07 17:56:49 INFO ProductRepository: update was called for productId=1
+2022-11-07 17:56:49 INFO ProductRepository: Method getById was called with productId=1
+2022-11-07 18:06:39 INFO ProductRepository: Method create was called
+2022-11-07 18:06:42 ERROR Exception during DB connection: No value specified for parameter 1
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1084) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:26) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:24) ~[main/:?]
+2022-11-07 18:06:42 INFO ProductService: Product was created: null
+2022-11-07 18:06:42 INFO ProductRepository: Method create was called
+2022-11-07 18:06:42 ERROR Exception during DB connection: No value specified for parameter 1
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1084) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:26) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:25) ~[main/:?]
+2022-11-07 18:06:42 INFO ProductService: Product was created: null
+2022-11-07 18:07:52 INFO ProductRepository: Method create was called
+2022-11-07 18:07:54 ERROR Exception during DB connection: Parameter index out of range (3 > number of parameters, which is 2).
+java.sql.SQLException: Parameter index out of range (3 > number of parameters, which is 2).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setDouble(ClientPreparedStatement.java:1524) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:25) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:24) ~[main/:?]
+2022-11-07 18:07:54 INFO ProductService: Product was created: null
+2022-11-07 18:07:54 INFO ProductRepository: Method create was called
+2022-11-07 18:07:54 ERROR Exception during DB connection: Parameter index out of range (3 > number of parameters, which is 2).
+java.sql.SQLException: Parameter index out of range (3 > number of parameters, which is 2).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setDouble(ClientPreparedStatement.java:1524) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:25) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:25) ~[main/:?]
+2022-11-07 18:07:54 INFO ProductService: Product was created: null
+2022-11-07 18:08:17 INFO ProductRepository: Method create was called
+2022-11-07 18:08:19 ERROR Exception during DB connection: Parameter index out of range (3 > number of parameters, which is 2).
+java.sql.SQLException: Parameter index out of range (3 > number of parameters, which is 2).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setDouble(ClientPreparedStatement.java:1524) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:25) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:24) ~[main/:?]
+2022-11-07 18:08:19 INFO ProductService: Product was created: null
+2022-11-07 18:08:19 INFO ProductRepository: Method create was called
+2022-11-07 18:08:20 ERROR Exception during DB connection: Parameter index out of range (3 > number of parameters, which is 2).
+java.sql.SQLException: Parameter index out of range (3 > number of parameters, which is 2).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setDouble(ClientPreparedStatement.java:1524) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:25) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:25) ~[main/:?]
+2022-11-07 18:08:20 INFO ProductService: Product was created: null
+2022-11-07 18:08:51 INFO ProductRepository: Method create was called
+2022-11-07 18:08:53 INFO ProductService: Product was created: 1
+2022-11-07 18:08:53 INFO ProductRepository: Method create was called
+2022-11-07 18:08:54 INFO ProductService: Product was created: 1
+2022-11-07 18:13:48 INFO ProductRepository: Method create was called
+2022-11-07 18:13:51 ERROR Exception during DB connection: Before start of result set
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1322) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:830) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:29) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:24) ~[main/:?]
+2022-11-07 18:13:51 INFO ProductService: Product was created: null
+2022-11-07 18:13:51 INFO ProductRepository: Method create was called
+2022-11-07 18:13:51 ERROR Exception during DB connection: Before start of result set
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1322) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:830) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.ProductRepository.create(ProductRepository.java:29) ~[main/:?]
+	at by.tms.order.services.ProductService.createProduct(ProductService.java:20) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:25) ~[main/:?]
+2022-11-07 18:13:51 INFO ProductService: Product was created: null
+2022-11-07 18:15:17 INFO ProductRepository: Method create was called
+2022-11-07 18:15:20 INFO ProductService: Product was created: 5
+2022-11-07 18:15:20 INFO ProductRepository: Method create was called
+2022-11-07 18:15:20 INFO ProductService: Product was created: 6
+2022-11-07 18:41:59 INFO ProductRepository: Method create was called
+2022-11-07 18:42:01 INFO ProductService: Product was created: 7
+2022-11-07 18:42:01 INFO ProductRepository: Method create was called
+2022-11-07 18:42:01 INFO ProductService: Product was created: 8
+2022-11-07 18:42:01 INFO ProductService: Method delete was called
+2022-11-07 18:42:01 INFO ProductRepository: Method delete was called
+2022-11-07 18:42:02 ERROR Exception during DB connection: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM products where id = 8' at line 1
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM products where id = 8' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.ProductRepository.delete(ProductRepository.java:76) ~[main/:?]
+	at by.tms.order.services.ProductService.delete(ProductService.java:37) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:30) ~[main/:?]
+2022-11-07 18:42:02 INFO ProductRepository: Method create was called
+2022-11-07 18:42:02 INFO ProductService: Product was created: 9
+2022-11-07 18:42:02 INFO ProductService: Method updateProduct was called with product=Product{id=7, description='iphone 14', price=900.0}
+2022-11-07 18:42:02 INFO ProductRepository: update was called for productId=7
+2022-11-07 18:42:03 INFO OrderRepository: Method create was called
+2022-11-07 18:42:03 INFO OrderService: Order was created: 1
+2022-11-07 18:42:03 INFO OrderService: Method addItem was called with orderId=1, productId=7, count=3
+2022-11-07 18:42:03 INFO ProductService: Method getProduct was called with productId=7
+2022-11-07 18:42:03 INFO ProductRepository: Method getById was called with productId=7
+2022-11-07 18:42:03 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-07 18:42:03 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:42:03 INFO OrderRepository: update was called for orderId=1
+2022-11-07 18:42:03 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:42:03 INFO OrderService: Method addItem was called with orderId=1, productId=9, count=5
+2022-11-07 18:42:03 INFO ProductService: Method getProduct was called with productId=9
+2022-11-07 18:42:03 INFO ProductRepository: Method getById was called with productId=9
+2022-11-07 18:42:03 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-07 18:42:03 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:42:03 INFO OrderRepository: update was called for orderId=1
+2022-11-07 18:42:03 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:42:03 INFO OrderService: Method finishOrder was called with orderId=1
+2022-11-07 18:42:03 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-07 18:42:03 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:42:03 INFO OrderRepository: update was called for orderId=1
+2022-11-07 18:42:03 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:42:03 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-07 18:42:03 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:44:15 INFO ProductRepository: Method create was called
+2022-11-07 18:44:18 INFO ProductService: Product was created: 10
+2022-11-07 18:44:18 INFO ProductRepository: Method create was called
+2022-11-07 18:44:19 INFO ProductService: Product was created: 11
+2022-11-07 18:44:19 INFO ProductService: Method delete was called
+2022-11-07 18:44:19 INFO ProductRepository: Method delete was called
+2022-11-07 18:44:19 INFO ProductRepository: Method create was called
+2022-11-07 18:44:19 INFO ProductService: Product was created: 12
+2022-11-07 18:44:19 INFO ProductService: Method updateProduct was called with product=Product{id=10, description='iphone 14', price=900.0}
+2022-11-07 18:44:19 INFO ProductRepository: update was called for productId=10
+2022-11-07 18:44:20 INFO OrderRepository: Method create was called
+2022-11-07 18:44:20 INFO OrderService: Order was created: 1
+2022-11-07 18:44:20 INFO OrderService: Method addItem was called with orderId=1, productId=10, count=3
+2022-11-07 18:44:20 INFO ProductService: Method getProduct was called with productId=10
+2022-11-07 18:44:20 INFO ProductRepository: Method getById was called with productId=10
+2022-11-07 18:44:20 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-07 18:44:20 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:44:20 INFO OrderRepository: update was called for orderId=1
+2022-11-07 18:44:20 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:44:20 INFO OrderService: Method addItem was called with orderId=1, productId=12, count=5
+2022-11-07 18:44:20 INFO ProductService: Method getProduct was called with productId=12
+2022-11-07 18:44:20 INFO ProductRepository: Method getById was called with productId=12
+2022-11-07 18:44:20 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-07 18:44:20 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:44:20 INFO OrderRepository: update was called for orderId=1
+2022-11-07 18:44:20 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:44:20 INFO OrderService: Method finishOrder was called with orderId=1
+2022-11-07 18:44:20 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-07 18:44:20 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:44:20 INFO OrderRepository: update was called for orderId=1
+2022-11-07 18:44:20 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-07 18:44:20 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-07 18:44:20 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-08 23:30:13 INFO ProductRepository: Method create was called
+2022-11-08 23:30:16 INFO ProductService: Product was created: 13
+2022-11-08 23:30:16 INFO ProductRepository: Method create was called
+2022-11-08 23:30:16 INFO ProductService: Product was created: 14
+2022-11-08 23:30:16 INFO ProductService: Method delete was called
+2022-11-08 23:30:16 INFO ProductRepository: Method delete was called
+2022-11-08 23:30:16 INFO ProductRepository: Method create was called
+2022-11-08 23:30:16 INFO ProductService: Product was created: 15
+2022-11-08 23:30:16 INFO ProductService: Method updateProduct was called with product=Product{id=13, description='iphone 14', price=900.0}
+2022-11-08 23:30:16 INFO ProductRepository: update was called for productId=13
+2022-11-08 23:30:17 INFO OrderRepository: Method create was called
+2022-11-08 23:32:45 INFO ProductRepository: Method create was called
+2022-11-08 23:32:48 INFO ProductService: Product was created: 16
+2022-11-08 23:32:48 INFO ProductRepository: Method create was called
+2022-11-08 23:32:48 INFO ProductService: Product was created: 17
+2022-11-08 23:32:48 INFO ProductService: Method delete was called
+2022-11-08 23:32:48 INFO ProductRepository: Method delete was called
+2022-11-08 23:32:48 INFO ProductRepository: Method create was called
+2022-11-08 23:32:49 INFO ProductService: Product was created: 18
+2022-11-08 23:32:49 INFO ProductService: Method updateProduct was called with product=Product{id=16, description='iphone 14', price=900.0}
+2022-11-08 23:32:49 INFO ProductRepository: update was called for productId=16
+2022-11-08 23:32:49 INFO OrderRepository: Method create was called
+2022-11-08 23:32:49 ERROR Exception during DB connection: Unknown column 'dateTime' in 'field list'
+java.sql.SQLSyntaxErrorException: Unknown column 'dateTime' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.OrderRepository.create(OrderRepository.java:25) ~[main/:?]
+	at by.tms.order.services.OrderService.createOrder(OrderService.java:25) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:35) ~[main/:?]
+2022-11-08 23:32:49 INFO OrderService: Order was created: 0
+2022-11-08 23:32:49 INFO OrderService: Method getOrder was called with orderId=0
+2022-11-08 23:32:49 INFO OrderRepository: Method getById was called with orderId=0
+2022-11-08 23:36:33 INFO ProductRepository: Method create was called
+2022-11-08 23:36:36 INFO ProductService: Product was created: 19
+2022-11-08 23:36:36 INFO ProductRepository: Method create was called
+2022-11-08 23:36:36 INFO ProductService: Product was created: 20
+2022-11-08 23:36:36 INFO ProductService: Method delete was called
+2022-11-08 23:36:36 INFO ProductRepository: Method delete was called
+2022-11-08 23:36:37 INFO ProductRepository: Method create was called
+2022-11-08 23:36:37 INFO ProductService: Product was created: 21
+2022-11-08 23:36:37 INFO ProductService: Method updateProduct was called with product=Product{id=19, description='iphone 14', price=900.0}
+2022-11-08 23:36:37 INFO ProductRepository: update was called for productId=19
+2022-11-08 23:36:37 INFO OrderRepository: Method create was called
+2022-11-08 23:36:37 INFO OrderService: Order was created: 1
+2022-11-08 23:36:37 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-08 23:36:37 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-08 23:44:31 INFO ProductRepository: Method create was called
+2022-11-08 23:44:34 INFO ProductService: Product was created: 22
+2022-11-08 23:44:34 INFO ProductRepository: Method create was called
+2022-11-08 23:44:35 INFO ProductService: Product was created: 23
+2022-11-08 23:44:35 INFO ProductService: Method delete was called
+2022-11-08 23:44:35 INFO ProductRepository: Method delete was called
+2022-11-08 23:44:35 INFO ProductRepository: Method create was called
+2022-11-08 23:44:35 INFO ProductService: Product was created: 24
+2022-11-08 23:44:35 INFO ProductService: Method updateProduct was called with product=Product{id=22, description='iphone 14', price=900.0}
+2022-11-08 23:44:35 INFO ProductRepository: update was called for productId=22
+2022-11-08 23:44:35 INFO OrderRepository: Method create was called
+2022-11-08 23:44:37 INFO OrderService: Order was created: 2
+2022-11-08 23:44:37 INFO OrderService: Method getOrder was called with orderId=2
+2022-11-08 23:44:37 INFO OrderRepository: Method getById was called with orderId=2
+2022-11-08 23:46:28 INFO ProductRepository: Method create was called
+2022-11-08 23:46:30 INFO ProductService: Product was created: 25
+2022-11-08 23:46:30 INFO ProductRepository: Method create was called
+2022-11-08 23:46:31 INFO ProductService: Product was created: 26
+2022-11-08 23:46:31 INFO ProductService: Method delete was called
+2022-11-08 23:46:31 INFO ProductRepository: Method delete was called
+2022-11-08 23:46:31 INFO ProductRepository: Method create was called
+2022-11-08 23:46:31 INFO ProductService: Product was created: 27
+2022-11-08 23:46:31 INFO ProductService: Method updateProduct was called with product=Product{id=25, description='iphone 14', price=900.0}
+2022-11-08 23:46:31 INFO ProductRepository: update was called for productId=25
+2022-11-08 23:46:32 INFO OrderRepository: Method create was called
+2022-11-08 23:46:32 INFO OrderService: Order was created: 3
+2022-11-08 23:46:32 INFO OrderService: Method getOrder was called with orderId=3
+2022-11-08 23:46:32 INFO OrderRepository: Method getById was called with orderId=3
+2022-11-09 00:34:18 INFO ProductRepository: Method create was called
+2022-11-09 00:34:21 INFO ProductService: Product was created: 28
+2022-11-09 00:34:21 INFO ProductRepository: Method create was called
+2022-11-09 00:34:21 INFO ProductService: Product was created: 29
+2022-11-09 00:34:21 INFO ProductService: Method delete was called
+2022-11-09 00:34:21 INFO ProductRepository: Method delete was called
+2022-11-09 00:34:22 INFO ProductRepository: Method create was called
+2022-11-09 00:34:22 INFO ProductService: Product was created: 30
+2022-11-09 00:34:22 INFO ProductService: Method updateProduct was called with product=Product{id=28, description='iphone 14', price=900.0}
+2022-11-09 00:34:22 INFO ProductRepository: update was called for productId=28
+2022-11-09 00:34:22 INFO OrderRepository: Method create was called
+2022-11-09 00:34:23 INFO OrderService: Order was created: 4
+2022-11-09 00:34:23 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-09 00:34:23 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-09 01:18:58 INFO ProductRepository: Method create was called
+2022-11-09 01:19:00 INFO ProductService: Product was created: 31
+2022-11-09 01:19:00 INFO ProductRepository: Method create was called
+2022-11-09 01:19:00 INFO ProductService: Product was created: 32
+2022-11-09 01:19:00 INFO ProductService: Method delete was called
+2022-11-09 01:19:00 INFO ProductRepository: Method delete was called
+2022-11-09 01:19:01 INFO ProductRepository: Method create was called
+2022-11-09 01:19:01 INFO ProductService: Product was created: 33
+2022-11-09 01:19:01 INFO ProductService: Method updateProduct was called with product=Product{id=31, description='iphone 14', price=900.0}
+2022-11-09 01:19:01 INFO ProductRepository: update was called for productId=31
+2022-11-09 01:19:01 INFO OrderRepository: Method create was called
+2022-11-09 01:19:02 INFO OrderService: Order was created: 5
+2022-11-09 01:19:02 INFO OrderService: Method addItem was called with orderId=5, productId=31, count=3
+2022-11-09 01:19:02 INFO ProductService: Method getProduct was called with productId=31
+2022-11-09 01:19:02 INFO ProductRepository: Method getById was called with productId=31
+2022-11-09 01:19:02 INFO OrderService: Method getOrder was called with orderId=5
+2022-11-09 01:19:02 INFO OrderRepository: Method getById was called with orderId=5
+2022-11-09 01:19:02 ERROR OrderService: Order id=5 not found.
+2022-11-09 01:19:02 INFO OrderService: Method addItem was called with orderId=5, productId=33, count=5
+2022-11-09 01:19:02 INFO ProductService: Method getProduct was called with productId=33
+2022-11-09 01:19:02 INFO ProductRepository: Method getById was called with productId=33
+2022-11-09 01:19:02 INFO OrderService: Method getOrder was called with orderId=5
+2022-11-09 01:19:02 INFO OrderRepository: Method getById was called with orderId=5
+2022-11-09 01:19:02 ERROR OrderService: Order id=5 not found.
+2022-11-09 01:19:02 INFO OrderService: Method finishOrder was called with orderId=5
+2022-11-09 01:19:02 INFO OrderService: Method getOrder was called with orderId=5
+2022-11-09 01:19:02 INFO OrderRepository: Method getById was called with orderId=5
+2022-11-09 01:19:03 ERROR OrderService: Order not found.
+2022-11-09 01:19:03 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-09 01:19:03 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-09 01:20:03 INFO ProductRepository: Method create was called
+2022-11-09 01:20:06 INFO ProductService: Product was created: 34
+2022-11-09 01:20:06 INFO ProductRepository: Method create was called
+2022-11-09 01:20:06 INFO ProductService: Product was created: 35
+2022-11-09 01:20:06 INFO ProductService: Method delete was called
+2022-11-09 01:20:06 INFO ProductRepository: Method delete was called
+2022-11-09 01:20:07 INFO ProductRepository: Method create was called
+2022-11-09 01:20:07 INFO ProductService: Product was created: 36
+2022-11-09 01:20:07 INFO ProductService: Method updateProduct was called with product=Product{id=34, description='iphone 14', price=900.0}
+2022-11-09 01:20:07 INFO ProductRepository: update was called for productId=34
+2022-11-09 01:20:07 INFO OrderRepository: Method create was called
+2022-11-09 01:20:07 INFO OrderService: Order was created: 6
+2022-11-09 01:20:07 INFO OrderService: Method addItem was called with orderId=6, productId=34, count=3
+2022-11-09 01:20:07 INFO ProductService: Method getProduct was called with productId=34
+2022-11-09 01:20:07 INFO ProductRepository: Method getById was called with productId=34
+2022-11-09 01:20:07 INFO OrderService: Method getOrder was called with orderId=6
+2022-11-09 01:20:07 INFO OrderRepository: Method getById was called with orderId=6
+2022-11-09 01:20:08 ERROR OrderService: Order id=6 not found.
+2022-11-09 01:20:08 INFO OrderService: Method addItem was called with orderId=6, productId=36, count=5
+2022-11-09 01:20:08 INFO ProductService: Method getProduct was called with productId=36
+2022-11-09 01:20:08 INFO ProductRepository: Method getById was called with productId=36
+2022-11-09 01:20:08 INFO OrderService: Method getOrder was called with orderId=6
+2022-11-09 01:20:08 INFO OrderRepository: Method getById was called with orderId=6
+2022-11-09 01:20:08 ERROR OrderService: Order id=6 not found.
+2022-11-09 01:20:08 INFO OrderService: Method finishOrder was called with orderId=6
+2022-11-09 01:20:08 INFO OrderService: Method getOrder was called with orderId=6
+2022-11-09 01:20:08 INFO OrderRepository: Method getById was called with orderId=6
+2022-11-09 01:20:08 ERROR OrderService: Order not found.
+2022-11-09 01:20:08 INFO OrderService: Method getOrder was called with orderId=6
+2022-11-09 01:20:08 INFO OrderRepository: Method getById was called with orderId=6
+2022-11-09 01:23:41 INFO ProductRepository: Method create was called
+2022-11-09 01:23:44 INFO ProductService: Product was created: 37
+2022-11-09 01:23:44 INFO ProductRepository: Method create was called
+2022-11-09 01:23:44 INFO ProductService: Product was created: 38
+2022-11-09 01:23:44 INFO ProductService: Method delete was called
+2022-11-09 01:23:44 INFO ProductRepository: Method delete was called
+2022-11-09 01:23:45 INFO ProductRepository: Method create was called
+2022-11-09 01:23:45 INFO ProductService: Product was created: 39
+2022-11-09 01:23:45 INFO ProductService: Method updateProduct was called with product=Product{id=37, description='iphone 14', price=900.0}
+2022-11-09 01:23:45 INFO ProductRepository: update was called for productId=37
+2022-11-09 01:23:45 INFO OrderRepository: Method create was called
+2022-11-09 01:23:45 INFO OrderService: Order was created: 7
+2022-11-09 01:23:45 INFO OrderService: Method addItem was called with orderId=7, productId=37, count=3
+2022-11-09 01:23:45 INFO ProductService: Method getProduct was called with productId=37
+2022-11-09 01:23:45 INFO ProductRepository: Method getById was called with productId=37
+2022-11-09 01:24:13 INFO OrderService: Method getOrder was called with orderId=7
+2022-11-09 01:24:13 INFO OrderRepository: Method getById was called with orderId=7
+2022-11-09 01:32:03 INFO ProductRepository: Method create was called
+2022-11-09 01:32:06 INFO ProductService: Product was created: 40
+2022-11-09 01:32:06 INFO ProductRepository: Method create was called
+2022-11-09 01:32:06 INFO ProductService: Product was created: 41
+2022-11-09 01:32:06 INFO ProductService: Method delete was called
+2022-11-09 01:32:06 INFO ProductRepository: Method delete was called
+2022-11-09 01:32:06 INFO ProductRepository: Method create was called
+2022-11-09 01:32:06 INFO ProductService: Product was created: 42
+2022-11-09 01:32:06 INFO ProductService: Method updateProduct was called with product=Product{id=40, description='iphone 14', price=900.0}
+2022-11-09 01:32:06 INFO ProductRepository: update was called for productId=40
+2022-11-09 01:32:07 INFO OrderRepository: Method create was called
+2022-11-09 01:32:07 INFO OrderService: Order was created: 8
+2022-11-09 01:32:07 INFO OrderService: Method addItem was called with orderId=8, productId=40, count=3
+2022-11-09 01:32:07 INFO ProductService: Method getProduct was called with productId=40
+2022-11-09 01:32:07 INFO ProductRepository: Method getById was called with productId=40
+2022-11-09 01:32:07 INFO OrderService: Method getOrder was called with orderId=8
+2022-11-09 01:32:07 INFO OrderRepository: Method getById was called with orderId=8
+2022-11-09 01:32:07 INFO OrderRepository: update was called for orderId=8
+2022-11-09 01:32:07 INFO OrderRepository: Method getById was called with orderId=8
+2022-11-09 01:32:08 ERROR Exception during DB connection: No value specified for parameter 3
+java.sql.SQLException: No value specified for parameter 3
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1084) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.OrderRepository.update(OrderRepository.java:93) ~[main/:?]
+	at by.tms.order.services.OrderService.addItem(OrderService.java:48) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:37) ~[main/:?]
+2022-11-09 01:32:08 INFO OrderService: Method addItem was called with orderId=8, productId=42, count=5
+2022-11-09 01:32:08 INFO ProductService: Method getProduct was called with productId=42
+2022-11-09 01:32:08 INFO ProductRepository: Method getById was called with productId=42
+2022-11-09 01:32:08 INFO OrderService: Method getOrder was called with orderId=8
+2022-11-09 01:32:08 INFO OrderRepository: Method getById was called with orderId=8
+2022-11-09 01:32:08 INFO OrderRepository: update was called for orderId=8
+2022-11-09 01:32:08 INFO OrderRepository: Method getById was called with orderId=8
+2022-11-09 01:32:09 ERROR Exception during DB connection: No value specified for parameter 3
+java.sql.SQLException: No value specified for parameter 3
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1084) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.OrderRepository.update(OrderRepository.java:93) ~[main/:?]
+	at by.tms.order.services.OrderService.addItem(OrderService.java:48) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:38) ~[main/:?]
+2022-11-09 01:32:09 INFO OrderService: Method finishOrder was called with orderId=8
+2022-11-09 01:32:09 INFO OrderService: Method getOrder was called with orderId=8
+2022-11-09 01:32:09 INFO OrderRepository: Method getById was called with orderId=8
+2022-11-09 01:32:09 INFO OrderRepository: update was called for orderId=8
+2022-11-09 01:32:09 INFO OrderRepository: Method getById was called with orderId=8
+2022-11-09 01:32:09 ERROR Exception during DB connection: No value specified for parameter 3
+java.sql.SQLException: No value specified for parameter 3
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1084) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.OrderRepository.update(OrderRepository.java:93) ~[main/:?]
+	at by.tms.order.services.OrderService.finishOrder(OrderService.java:60) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:40) ~[main/:?]
+2022-11-09 01:32:09 INFO OrderService: Method getOrder was called with orderId=8
+2022-11-09 01:32:09 INFO OrderRepository: Method getById was called with orderId=8
+2022-11-09 01:33:36 INFO ProductRepository: Method create was called
+2022-11-09 01:33:39 INFO ProductService: Product was created: 43
+2022-11-09 01:33:39 INFO ProductRepository: Method create was called
+2022-11-09 01:33:39 INFO ProductService: Product was created: 44
+2022-11-09 01:33:39 INFO ProductService: Method delete was called
+2022-11-09 01:33:39 INFO ProductRepository: Method delete was called
+2022-11-09 01:33:39 INFO ProductRepository: Method create was called
+2022-11-09 01:33:40 INFO ProductService: Product was created: 45
+2022-11-09 01:33:40 INFO ProductService: Method updateProduct was called with product=Product{id=43, description='iphone 14', price=900.0}
+2022-11-09 01:33:40 INFO ProductRepository: update was called for productId=43
+2022-11-09 01:33:40 INFO OrderRepository: Method create was called
+2022-11-09 01:33:41 INFO OrderService: Order was created: 9
+2022-11-09 01:33:41 INFO OrderService: Method addItem was called with orderId=9, productId=43, count=3
+2022-11-09 01:33:41 INFO ProductService: Method getProduct was called with productId=43
+2022-11-09 01:33:41 INFO ProductRepository: Method getById was called with productId=43
+2022-11-09 01:33:41 INFO OrderService: Method getOrder was called with orderId=9
+2022-11-09 01:33:41 INFO OrderRepository: Method getById was called with orderId=9
+2022-11-09 01:33:41 INFO OrderRepository: update was called for orderId=9
+2022-11-09 01:33:41 INFO OrderRepository: Method getById was called with orderId=9
+2022-11-09 01:33:42 ERROR Exception during DB connection: Unknown column 'finished' in 'field list'
+java.sql.SQLSyntaxErrorException: Unknown column 'finished' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.OrderRepository.update(OrderRepository.java:94) ~[main/:?]
+	at by.tms.order.services.OrderService.addItem(OrderService.java:48) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:37) ~[main/:?]
+2022-11-09 01:33:42 INFO OrderService: Method addItem was called with orderId=9, productId=45, count=5
+2022-11-09 01:33:42 INFO ProductService: Method getProduct was called with productId=45
+2022-11-09 01:33:42 INFO ProductRepository: Method getById was called with productId=45
+2022-11-09 01:33:42 INFO OrderService: Method getOrder was called with orderId=9
+2022-11-09 01:33:42 INFO OrderRepository: Method getById was called with orderId=9
+2022-11-09 01:33:42 INFO OrderRepository: update was called for orderId=9
+2022-11-09 01:33:42 INFO OrderRepository: Method getById was called with orderId=9
+2022-11-09 01:33:43 ERROR Exception during DB connection: Unknown column 'finished' in 'field list'
+java.sql.SQLSyntaxErrorException: Unknown column 'finished' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.OrderRepository.update(OrderRepository.java:94) ~[main/:?]
+	at by.tms.order.services.OrderService.addItem(OrderService.java:48) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:38) ~[main/:?]
+2022-11-09 01:33:43 INFO OrderService: Method finishOrder was called with orderId=9
+2022-11-09 01:33:43 INFO OrderService: Method getOrder was called with orderId=9
+2022-11-09 01:33:43 INFO OrderRepository: Method getById was called with orderId=9
+2022-11-09 01:33:43 INFO OrderRepository: update was called for orderId=9
+2022-11-09 01:33:43 INFO OrderRepository: Method getById was called with orderId=9
+2022-11-09 01:33:43 ERROR Exception during DB connection: Unknown column 'finished' in 'field list'
+java.sql.SQLSyntaxErrorException: Unknown column 'finished' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at by.tms.order.repositories.OrderRepository.update(OrderRepository.java:94) ~[main/:?]
+	at by.tms.order.services.OrderService.finishOrder(OrderService.java:60) ~[main/:?]
+	at by.tms.order.Main.main(Main.java:40) ~[main/:?]
+2022-11-09 01:33:43 INFO OrderService: Method getOrder was called with orderId=9
+2022-11-09 01:33:43 INFO OrderRepository: Method getById was called with orderId=9
+2022-11-09 01:36:04 INFO ProductRepository: Method create was called
+2022-11-09 01:36:07 INFO ProductService: Product was created: 46
+2022-11-09 01:36:07 INFO ProductRepository: Method create was called
+2022-11-09 01:36:07 INFO ProductService: Product was created: 47
+2022-11-09 01:36:07 INFO ProductService: Method delete was called
+2022-11-09 01:36:07 INFO ProductRepository: Method delete was called
+2022-11-09 01:36:07 INFO ProductRepository: Method create was called
+2022-11-09 01:36:08 INFO ProductService: Product was created: 48
+2022-11-09 01:36:08 INFO ProductService: Method updateProduct was called with product=Product{id=46, description='iphone 14', price=900.0}
+2022-11-09 01:36:08 INFO ProductRepository: update was called for productId=46
+2022-11-09 01:36:08 INFO OrderRepository: Method create was called
+2022-11-09 01:36:08 INFO OrderService: Order was created: 1
+2022-11-09 01:36:08 INFO OrderService: Method addItem was called with orderId=1, productId=46, count=3
+2022-11-09 01:36:08 INFO ProductService: Method getProduct was called with productId=46
+2022-11-09 01:36:08 INFO ProductRepository: Method getById was called with productId=46
+2022-11-09 01:36:08 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-09 01:36:08 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-09 01:36:09 INFO OrderRepository: update was called for orderId=1
+2022-11-09 01:36:09 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-09 01:36:09 INFO Item was created orderId=1
+2022-11-09 01:36:09 INFO Item id=0, orderId=1 was updated
+2022-11-09 01:36:09 INFO OrderService: Method addItem was called with orderId=1, productId=48, count=5
+2022-11-09 01:36:09 INFO ProductService: Method getProduct was called with productId=48
+2022-11-09 01:36:09 INFO ProductRepository: Method getById was called with productId=48
+2022-11-09 01:36:09 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-09 01:36:09 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-09 01:36:09 INFO OrderRepository: update was called for orderId=1
+2022-11-09 01:36:09 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-09 01:36:10 INFO Item was created orderId=1
+2022-11-09 01:36:10 INFO Item id=1, orderId=1 was updated
+2022-11-09 01:36:10 INFO OrderService: Method finishOrder was called with orderId=1
+2022-11-09 01:36:10 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-09 01:36:10 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-09 01:36:10 INFO OrderRepository: update was called for orderId=1
+2022-11-09 01:36:10 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-09 01:36:10 INFO Item id=1, orderId=1 was updated
+2022-11-09 01:36:10 INFO Item id=2, orderId=1 was updated
+2022-11-09 01:36:10 INFO OrderService: Method getOrder was called with orderId=1
+2022-11-09 01:36:10 INFO OrderRepository: Method getById was called with orderId=1
+2022-11-09 01:40:36 INFO ProductRepository: Method create was called
+2022-11-09 01:40:38 INFO ProductService: Product was created: 49
+2022-11-09 01:40:38 INFO ProductRepository: Method create was called
+2022-11-09 01:40:39 INFO ProductService: Product was created: 50
+2022-11-09 01:40:39 INFO ProductService: Method delete was called
+2022-11-09 01:40:39 INFO ProductRepository: Method delete was called
+2022-11-09 01:40:39 INFO ProductRepository: Method create was called
+2022-11-09 01:40:39 INFO ProductService: Product was created: 51
+2022-11-09 01:40:39 INFO ProductService: Method updateProduct was called with product=Product{id=49, description='iphone 14', price=900.0}
+2022-11-09 01:40:39 INFO ProductRepository: update was called for productId=49
+2022-11-09 01:40:39 INFO OrderRepository: Method create was called
+2022-11-09 01:40:40 INFO OrderService: Order was created: 2
+2022-11-09 01:40:40 INFO OrderService: Method addItem was called with orderId=2, productId=49, count=3
+2022-11-09 01:40:40 INFO ProductService: Method getProduct was called with productId=49
+2022-11-09 01:40:40 INFO ProductRepository: Method getById was called with productId=49
+2022-11-09 01:40:40 INFO OrderService: Method getOrder was called with orderId=2
+2022-11-09 01:40:40 INFO OrderRepository: Method getById was called with orderId=2
+2022-11-09 01:40:40 INFO OrderRepository: update was called for orderId=2
+2022-11-09 01:40:40 INFO OrderRepository: Method getById was called with orderId=2
+2022-11-09 01:40:41 INFO Item was created orderId=2
+2022-11-09 01:40:41 INFO Item id=0, orderId=2 was updated
+2022-11-09 01:40:41 INFO OrderService: Method addItem was called with orderId=2, productId=51, count=5
+2022-11-09 01:40:41 INFO ProductService: Method getProduct was called with productId=51
+2022-11-09 01:40:41 INFO ProductRepository: Method getById was called with productId=51
+2022-11-09 01:40:41 INFO OrderService: Method getOrder was called with orderId=2
+2022-11-09 01:40:41 INFO OrderRepository: Method getById was called with orderId=2
+2022-11-09 01:40:41 INFO OrderRepository: update was called for orderId=2
+2022-11-09 01:40:41 INFO OrderRepository: Method getById was called with orderId=2
+2022-11-09 01:40:42 INFO Item was created orderId=2
+2022-11-09 01:40:42 INFO Item id=3, orderId=2 was updated
+2022-11-09 01:40:42 INFO OrderService: Method finishOrder was called with orderId=2
+2022-11-09 01:40:42 INFO OrderService: Method getOrder was called with orderId=2
+2022-11-09 01:40:42 INFO OrderRepository: Method getById was called with orderId=2
+2022-11-09 01:40:42 INFO OrderRepository: update was called for orderId=2
+2022-11-09 01:40:42 INFO OrderRepository: Method getById was called with orderId=2
+2022-11-09 01:40:42 INFO Item id=3, orderId=2 was updated
+2022-11-09 01:40:42 INFO Item id=4, orderId=2 was updated
+2022-11-09 01:40:42 INFO OrderService: Method getOrder was called with orderId=2
+2022-11-09 01:40:42 INFO OrderRepository: Method getById was called with orderId=2
